@@ -5,5 +5,5 @@ public class NhanVien
     public string MaNhanVien { get; set; }
     public string TenNhanVien { get; set; }
     public string MaPhongBan { get; set; }
-
+    
 }

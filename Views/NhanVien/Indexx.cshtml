@@ -1,0 +1,24 @@
+@using _2526_2221050318_BaiThi.Models
+
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+        <select id="pageSizeSelect" class="form-select d-inline-block w-auto">
+            <option value="10" selected="@(Model.PageSize == 10)">
+                10
+            </option>
+            <option value="20" selected="@(Model.PageSize == 20)">
+                20
+            </option>
+            <option value="50" selected="@(Model.PageSize == 50)">
+                50
+            </option>
+            <option value="100" selected="@(Model.PageSize == 100)">
+                100
+            </option>
+        </select>
+    </div>
+    <button id="btnAddStudent" class="btn btn-primary">
+        Thêm Nhân Viên
+    </button>
+</div>
